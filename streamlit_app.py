@@ -51,3 +51,6 @@ streamlit.write('The user entered ', fruit_choice)
 
 #This will not work correctly, but just go with it for now
 my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
+# don't run anything past here while we troubleshoot
+streamlit.stop()
