@@ -47,4 +47,4 @@ streamlit.header("The fruit list contains:")
 streamlit.dataframe(my_data_rows)
 
 # Allow the end user to add a fruit to the list
-add_my_fruit = jackfruit
+add_my_fruit = 
